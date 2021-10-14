@@ -50,6 +50,7 @@
 nav{
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 /* HEADER  */
@@ -69,11 +70,74 @@ header .container .row .col img{
 
 /* MAIN  */
 
-main section .container .row .col img{
+/* section_uno */
+
+main section.uno .container .row .col img{
   border:2px solid transparent;
   transition: all 1s;
 }
 
-main section .container .row .col:hover img{
+main section.uno .container .row .col:hover img{
   border:2px solid lightseagreen;
+}
+
+/* section_quattro */
+
+main section.quattro .container .row .col-4 {
+  filter: opacity(.8);
+  border-bottom:2px solid transparent;
+  transition: all 1s;
+}
+
+main section.quattro .container .row .col-4:hover {
+  filter: opacity(1);
+  border-bottom:2px solid lightseagreen;
+}
+
+main section.quattro .container .row .col-4 p{
+  position: relative;
+ }
+
+main section.quattro .container .row .col-4 p span{
+ font-size: 7px;
+ position: absolute;
+ bottom: 8px;
+}
+
+/* section_cinque  */
+
+section.cinque{
+  background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+  margin-top: 105.383px;
+}
+
+section.cinque .container .row .col img{
+  width: 250px;
+}
+
+/* section_sei  */
+
+
+main section.sei .container .row .col p span{
+ font-size: 7px;
+ 
+}
+
+
+/* MEDIA QUERY  */
+
+@media (min-width:768px) {
+  .ml-col-md{
+    width: calc(100% / 5);
+  }
+}
+
+@media (min-width:1400px) {
+  .ml-pr-xxl{
+    padding-right: 60%;
+  }
 }
