@@ -12,14 +12,14 @@
 
 /* NAV  */
 
-.ml-nav{
+nav{
   position: fixed;
   top: 0;
 }
 
 /* HEADER  */
 
-.ml-header{
+header{
   background-image: url('../img/jumbo-bg.png');
   background-size:cover;
   background-position: center;
