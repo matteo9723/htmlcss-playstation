@@ -8,6 +8,41 @@
   width: 100px;
 }
 
+.ml-width-200px{
+  width: 200px;
+}
+
+.ml-width-100per100{
+  width: 100%;
+}
+
+.ml-border-radius-30px{
+  border-radius: 30px;
+}
+
+.ml-mt-100px{
+  margin-top: 100px;
+}
+
+.ml-btn{
+  background-color: #CD3D0F;
+  border-color: #CD3D0F ;
+  border-radius: 30px;
+  color: white;
+  padding: 7px 1px;
+}
+
+.ml-btn span{
+ border: 2px solid transparent;
+ padding: 5px 20px;
+ border-radius: 30px;
+ transition: border 1s;
+}
+
+.ml-btn:hover span{
+ border: 2px solid black;
+}
+
 
 
 /* NAV  */
@@ -26,4 +61,19 @@ header{
   width: 100%;
   min-height: 500px;
   margin-top: 105.383px;
+}
+
+header .container .row .col img{
+  width: 300px;
+}
+
+/* MAIN  */
+
+main section .container .row .col img{
+  border:2px solid transparent;
+  transition: all 1s;
+}
+
+main section .container .row .col:hover img{
+  border:2px solid lightseagreen;
 }
