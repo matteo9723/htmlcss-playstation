@@ -4,6 +4,10 @@
   background-color: black;
 }
 
+.ml-bg-rgba{
+  background-color: rgba(0, 0,0, .5);
+}
+
 .ml-width-100px{
   width: 100px;
 }
@@ -28,6 +32,8 @@
   margin-top: 100px;
 }
 
+/* button_orange  */
+
 .ml-btn{
   background-color: #CD3D0F;
   border-color: #CD3D0F ;
@@ -45,6 +51,22 @@
 
 .ml-btn:hover span{
  border: 2px solid black;
+}
+
+/* button_white  */
+
+.ml-btn-white{
+  background-color: #D9DADC;
+  border:2px solid #D9DADC ;
+  border-radius: 30px;
+  color: rgb(70, 70, 226);
+  padding: 7px 1px;
+  transition: border 1s;
+}
+
+.ml-btn-white:hover {
+ border: 2px solid #C6C5C5;
+ color: rgb(70, 70, 226);
 }
 
 
