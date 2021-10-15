@@ -8,6 +8,10 @@
   background-color: #161C3B;
 }
 
+.ml-bg-blue {
+  background-color: blue;
+}
+
 .ml-bg-rgba{
   background-color: rgba(0, 0,0, .5);
 }
@@ -34,6 +38,10 @@
 
 .ml-mt-100px{
   margin-top: 100px;
+}
+
+.ml-filter{
+  filter: brightness(1000%) sepia(100%) saturate(100%) hue-rotate(0deg);
 }
 
 /* button_orange  */
@@ -183,6 +191,18 @@ section.cinque .container .row .col img{
 main section.sei .container .row .col p span{
  font-size: 7px;
  
+}
+
+/* FOOTER  */
+
+footer .container .row .col-12 ul li a{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+footer .container .row .col-12 ul {
+  
+  list-style-type: none;
 }
 
 
