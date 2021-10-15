@@ -109,6 +109,27 @@
  border: 2px solid black;
 }
 
+/* button_black  */
+
+.ml-btn-black{
+  background-color: #363636;
+  border-color: #363636;
+  border-radius: 30px;
+  color: white;
+  padding: 7px 1px;
+}
+
+.ml-btn-black span{
+ border: 2px solid transparent;
+ padding: 5px 20px;
+ border-radius: 30px;
+ transition: border 1s;
+}
+
+.ml-btn-black:hover span{
+ border: 2px solid white;
+}
+
 
 
 /* NAV  */
@@ -118,6 +139,8 @@ nav{
   top: 0;
   z-index: 999;
 }
+
+
 
 /* HEADER  */
 
