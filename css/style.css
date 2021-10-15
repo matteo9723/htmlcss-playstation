@@ -167,13 +167,34 @@ nav{
 }
 
  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: lightseagreen;
+  color: black;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link:hover {
-  color: lightseagreen;
+.navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .show > .nav-link:hover {
+  color: blue;
 } 
 
+.nav-link{
+  color: black;
+}
+
+.nav-link:hover{
+  color: blue;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: -260px;
+}
+
+.dropdown-menu {
+  min-width: 100vw;
+}
+
+.dropdown-menu .row ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+}
 /* HEADER  */
 
 header{
